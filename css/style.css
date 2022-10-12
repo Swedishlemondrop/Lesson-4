@@ -1,0 +1,135 @@
+body{
+    height: 920px;
+    width: 1600px;;
+}
+.logo{
+    position: absolute;
+    width: 95.25px;
+    height: 40.61px;
+    left: 80px;
+    top: 48px;
+
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 160%;
+    /* or 48px */
+    display: inline-flex;
+    letter-spacing: -0.02em;
+
+    color: #0A1B32;
+
+}
+.logo_dot{
+    display: inline-flex;
+    color: #FC569A;
+}
+
+.nav{
+    position: absolute;
+    left: 272.76px;
+    top: 48px;
+    display: inline-flex;
+    list-style-type: none;
+
+
+}
+.nav>li{    
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #1B0A42;
+    margin-left: 38px;
+}
+.nav>li.signin{
+    position: absolute;
+    width: 52px;
+    height: 24px;
+    margin-left: 752.2px;
+
+}
+.nav>li>button{
+    position: absolute;
+    width: 120px;
+    height: 59.65px;
+    left: 883.7px;
+    top: -18px;
+
+    background: #FC569A;
+    border-radius: 6px;
+    border-color: #FFFFFF;
+    border-style: none;
+    color: #FFFFFF;
+
+}
+a:link,a:active,a:visited,a:hover {
+    text-decoration: none; 
+}
+.main_title{
+    position: absolute;
+    width: 496px;
+    height: 152px;
+    left: 200px;
+    top: 280.71px;
+
+    font-family: 'Ramaraja';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 76px;
+    /* or 106% */
+    display: inline-block;
+
+    letter-spacing: 0.02em;
+
+    color: #1B0A42;
+}
+.main_info{
+    position: absolute;
+    width: 581.49px;
+    height: 96px;
+    left: 200px;
+    top: 442.71px;
+    display: inline-block;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+
+    letter-spacing: 0.02em;
+
+    color: #9A9A9A;
+}
+
+.yoga_img{
+    position: absolute;
+    width: 778px;
+    height: 526px;
+    left: 800px;
+    top: 205px;
+}
+.learn_more{
+    position: absolute;
+    width: 152px;
+    height: 63.82px;
+    left: 200px;
+    top: 588.71px;
+
+    background: #FC569A;
+    border-radius: 6px;
+    border-color: #FFFFFF;
+    border-style: none;
+    color: #FFFFFF;
+}
